@@ -1,0 +1,49 @@
+/* Colours */
+body {
+ color: #a00;
+ background-color: #150000;
+}
+a {
+ color:#c00;
+}
+a:hover {
+ color: #f00;
+}
+#menulinks a, #otherlangs a, #otherlangs li {
+ color: #c00;
+}
+#menulinks a:hover, #otherlangs a:hover {
+ color: #f00;
+}
+#otherlangs {
+ color: #c00;
+}
+#menubar {
+ background-color: black;
+}
+#homeicon {
+ background-color: gray;
+}
+#homeicon a {
+ color: #000;
+}
+#homeicon a:hover {
+ color: #fff;
+}
+footer {
+ background-color: #250000;
+}
+footer a {
+ text-decoration: none;
+ color: #600;
+}
+footer a:hover {
+ color: #900;
+}
+.na {
+ color: #f00;
+}
+
+h1:hover, h2:hover {
+ color: #b00;
+}

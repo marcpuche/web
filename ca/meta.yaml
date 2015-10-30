@@ -1,0 +1,22 @@
+extends: base.j2
+default_block: article
+
+language: ca
+menu:
+  -
+    name: "Quant a"
+    page: "quant-a"
+  -
+    name: "Empreses"
+    page: "empreses"
+  -
+    name: "Projectes"
+    page: "projectes"
+  -
+    name: "Universitat"
+    page: "universitat"
+
+l10n:
+  search: "Cerca"
+  otherlangs: "Altres idiomes"
+  notinthislang: "No disponible en català"

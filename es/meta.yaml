@@ -1,0 +1,22 @@
+extends: base.j2
+default_block: article
+
+language: es
+menu:
+  -
+    name: "Acerca de"
+    page: "acerca-de"
+  -
+    name: "Empresas"
+    page: "empresas"
+  -
+    name: "Proyectos"
+    page: "proyectos"
+  -
+    name: "Universidad"
+    page: "universidad"
+
+l10n:
+  search: "Buscar"
+  otherlangs: "Otros idiomas"
+  notinthislang: "No disponible en español"
