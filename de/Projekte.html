@@ -4,109 +4,105 @@ uuid: projects
 class: main
 created: 2012-05-09T01:50:56+02:00
 ---
-# Students
-Next you can find listed the projects I have done so far in different topics of my personal interest.
+# Studierende
+Anschließend finden Sie eine Liste der Projekte, die ich bisher in verschiedenen Bereichen meines Interesses gemacht habe:
 
-## [The Black-Scholes model for European options on two assets][EOTA] - added on November 1, 2015
+## [Das Black & Scholes-Modell für europäische Optionen auf zwei Aktivvermögen][EOTA] - veröffentlicht am 1. November 2015
 
-> **Abstract:** In my bachelor thesis I explore the Black-Scholes model for European options on tow assets. This is a model of Financial Mathematics used in the field of opcion pricing that requires of Partial Differential Equations and Stochastic Calculus to derive the results. I presented my own ones for the case in which one of the assets tends to zero or the modulus of the correlation coefficient is 1, in which case one obtains a degenerated PDE. I also give numerical simulation of the equations obtained with specific values for the parameters and pay-offs.
+> **Zusammenfassung:** In meiner Bachelorarbeit erforsche ich das Black & Scholes-Modell für europäische Optionen auf zwei Aktivvermögen. Dies ist ein Modell von Finanzmathematik, das PDGL und Stochastiksrechnung benötigt, um Ergebnisse abzuleiten. Ich habe meine eigenen Resultate für die Fälle präsentiert, in denen eins der Aktivvermögen gegen Null konvergiert oder das Modul des Korrelationskoffizients 1 ist, wobei man eine degenerierte PDGL bekommt. Ich habe auch eine numerische Simulation der erhaltenen Gleichungen mit besonderen Werten für die Parameter und Abfindungen gegeben.
 
-For instance, the following image corresponds to the value of a perpetual put option on the assets p,q.
+Zum Beispiel, das folgende Bild stimmt mit dem Wert einer ewigen Put-Option auf die Aktivvermögen p,q überein.
 
 ![perpetual][perpetual]
 
-This image is the numerical solution of the non-linear PDE
+Das Bild ist die numerische Lösung von der nichtliniaren PDGL
 
 ![nl-pde][nl-pde]
 
 [perpetual]: [[!!img/perpetual.png]] "Perpetual option"
 [nl-pde]: [[!!img/nl-pde.png]] "Non-linear PDE"
 
-## [The Euler-Lagrange equation and applications][euler-lagrange] - added on November 1, 2015
+## [Die Euler-Lagrange Gleichung und Anwendungen][euler-lagrange] - veröffentlicht am 1. November 2015
 
-> **Abstract:** The Euler-Lagrange equation is a powerful tool that appears in several fields such as theoretical physics and applied mathematics. Roughly speaking, it provides an equation for a function that minimizes an integral expression. In this report I give the derivation of the equation following the lines of variational calculus and applications of it.
+> **Zusammenfassung:** Die Euler-Lagrange Gleichung ist ein mächtiges Tool, das in verschiedenen Feldern wie theoretische Physik und angewandte Mathematik auftaucht. Ungefähr gesagt liefert sie eine Gleichung für eine Funktion, die eine Integralform minimiert. In diesem Bericht gebe ich die Herleitung der Gleichung nach den Linien der Variationsrechnung und Anwendungen davon.
 
-For instance, the equation for the function that minimizes the surface is given by the PDE
+Zum Beispiel, die Gleichung für die Funktion, die die Fläche minimiert, wird von der folgenden PDGL gegeben
 
 ![surface_eqn][surface_eqn]
 
-A numerical solution by using the finite difference method and taking catenary arches on the boundary looks as follows
+Eine numerische Lösung mit der Methode der finiten Differenzen und Kettenlinien auf den Grenzen sieht wie folgt aus
 
 ![surface][surface]
 
 [surface_eqn]: [[!!img/surface_eqn.png]]
 [surface]: [[!!img/surface.png]]
 
-## [Geodesics on an ellipsoid][geodesics] - added on November 1, 2015
+## [Geodäsien auf einem Ellipsoid][geodesics] - veröffentlicht am 1. November 2015
 
-> **Abstract:** The term geodesic refers in mathematics to the curve on a surface that minimizes the length of arc between two points. A well-known application is the field of Geodesy, which is the study of such curves on the Earth as well as its gravitational field properties. In this report we are going to give a mathematical model for the Earth and derive the equations of a geodesic on its surface. Finally we will calculate distances between pairs of points and introduce the the so-called Two geodetic problems.
+> **Zusammenfassung:** Der Geodäsienbegriff bezieht sich in Mathematik auf die Kurve auf einer Fläche, die die Bogenlänge zwischen zwei Punkten minimiert. Eine bekannte Anwendung ist das Feld von der Erdvermessung. In diesem Bericht geben wir ein mathematisches Modell für die Erde und leiten wir die Gleichungen für die Geodäsie auf ihrer Fläche ab. Am Ende berechnen wir Distanzen zwischen Punkten und stellen die so genannten zwei geodätischen Probleme vor.
 
-An application of the problem is discussed on the report and we calculate the distance between Barcelona and Hamburg by solving the system of ODE
+Eine Anwendung vom Problem wird auf dem Bericht besprochen und wir berechnen die Distanz zwischen Barcelona und Hamburg. Damit müssen wir das System von folgenden DGL lösen
 
 ![geo_eqns][geo_eqns]
 
-with the appropriate conditions and calculate the length using the integral expression
+Mit den zuständigen Konditionen berechnen wir die Länge mit der Integralform
 
 ![arc_len][arc_len]
 
-obtaining the value of L=1198.92 km
+und wir bekommen den Wert von L=1198.92 km
 
 [geo_eqns]: [[!!img/geo_eqns.png]]
 [arc_len]: [[!!img/arc_len.png]]
 
-## [World population][worldpop] - added on November 1, 2015
+## [Weltbevölkerung][worldpop] - veröffentlicht am 1. November 2015
 
-> **Abstract:** In this report we will try to find a mathematical model for the world population's growth as a function for the time, namely, given a time t, find a population p(t) as accurate to reality as possible. This will allow us to consider a possible growth of the world inhabitants in the forthcoming years and check the stability in the future.
+> **Zusammenfassung:** In diesem Bericht versuchen wir, ein mathematisches Modell für die Weltbevölkerung als eine Funktion der Zeit zu entwickeln, nämlich, eine Zeit t gegeben finden wir eine Bevölkerung p(t) so exakt wie möglich. Damit können wir einen möglichen Zuwachs für die Weltbevölkerung in die kommenden Jahren erwägen und die Stabilität in die Zukunft durcharbeiten.
 
-The following image is the simultaneous display of three differenet models for p(t).
+Das folgende Bild ist die simultane Darstellung von drei verschiedenen Modellen für p(t).
 
 ![worldpop][worldpop]
 [worldpop]: [[!!img/worldpop.jpg]]
 
-# Cooperation
-Here you can find the projects I have done in cooperation with other entities or colleagues.
+# Kooperation
+Nachfolgend finden Sie die Projekte, die ich in Kooperation mit anderen Entitäten oder Kollegen gemacht habe.
 
-## [The Recycling problem][recycling] - added on November 1, 2015
+## [Das Recycling Problem][recycling] - veröffentlicht am 1. November 2015
 
-> **Abstract:** Nowadays, recycling has become a trend-topic in most of first world's nations. As a matter of fact, several materials can be recycled and there are plenty of benefits, such as reduced consumption of fresh raw materials, reduced energy usage and reduced landfills. Nevertheless, recycling comes with its own costs, such as the collection of items and transfer to the recycling center as well as sorting. Several questions naturally arise, among others:
+> **Zusammenfassung:** Heutzutage ist das Recycling ein tendenzielles Thema in vielen Ländern der Ersten Welt. Tatsächlich können verschiedene Materialien wiederverwertet werden und die Bezüge sind hoch. Recycling geht trotzdem mit seinen eigenen Kosten einher. Verschiede Fragen entstehen, u.a.:
 
-* Is recycling worth it compared to sending everything to landfills?
-* Can we also obtain profit from unsorted waste sources?
-* How expensive is recycling if we want to fulfill certain quotas?
-* Do capacities represent a bottle-neck for the recycling process?
-* Is it feasible to remove or build facilities?
+* Ist das Recycling wertvoll, vergleichen damit, alles zur Geländeauffüllung zu schicken?
+* Können wir auch Gewinn von unsortierten Quellen bekommen?
+* Wie teuer ist das Recylcling, wenn wir bestimmte Quoten ausführen wollen?
+* Stellen die Kapazitäten einen Flaschenhals für den Recylclingprozess dar?
+* Ist es durchführbar, Anlagen zu erstellen oder zu entfernen?
 
-In order to answer these questions we are going to derive a mathematical model for the cost-benefit of recycling. Afterwards we will try to see if optimality can be defined in any sense.
+Um eine Antwort auf diese Fragen zu geben, werden wir ein mathematisches Modell für den Kost-Gewinn des Recyclings entwickeln. Danach werden wir versuchen, zu sehen, ob Optimalität definiert werden kann.
 
-# Companies
-Last but not least, the projects I have done so far for companies.
+# Firmen
+Hier finden Sie die Projekte, die ich bisher für Firmen entwickelt habe.
 
-## [The summer season 2015 for the Hamburg operation][summer] - added on November 1, 2015
+## Die Sommersaison 2015 für SNE Hamburg - veröffentlicht am 1. November 2015
 
-> **Abstract:** In this report we are going to give an overview of the Hamburg operation during the summer season 2015. We will compare the weekly values regarding operating profit, revenue and costs with 2014 and discuss them. Aspects that will be taken into account are:
+> **Zusammenfassung:** In diesem Bericht geben wir einen Überblick von der Hamburg-Operation während des Sommers 2015. Der Vergleich wird mit den wöchentlichen Daten von dem Operating-Gewinn, der Einnahme und den Kosten gemacht. Punkte, die berücksichtigt werden, sind:
 
-* Competition in Hamburg;
-* The 2pm FT shift;
-* The German FT shift;
-* Staff costs and SOP;
-* Private tours and groups.
+* Konkurrenz in Hamburg;
+* das 14 Uhr FT Schicht;
+* das deutsche FT Schicht;
+* Mitarbeiterkosten und SOP;
+* private Touren und Gruppen.
 
-We will consider the beginning of the season in the 14th week of the year, corresponding to the week when Easter took place in 2015.
+## Ein Vorschlag für die Wintersaison 2015/2016 für SNE Hamburg - veröffentlicht am 1. November 2015
 
-## [A proposal for the winter season 2015/2016 for SNE Hamburg][winter] - added on November 1, 2015
+> **Zusammenfassung:** In diesem Bericht geben wir verschiedene Möglichkeiten für die Hamburg-Operation während der Wintersaison 2015/2016. Punkte, die wir berücksichtigen, sind:
 
-> **Abstract:** In this report we are going to discuss and present possible situations for the Hamburg Operation during the winter season 2015/2016. Facts that will be taken into account are:
+* Konkurrenz in Hamburg;
+* das 14 Uhr Free Tour Schicht;
+* Stunden der Mitarbeiter.
 
-* Competition in Hamburg.
-* 2pm Free Tour shift.
-* Hours of the employees.
-
-Finally, we would like to draw a conclusion about how to set the operation minimizing costs and having a solid employee structure.
+Schließlich möchten wir einen Schluss ziehen, worüber man die Operation stellen muss, um die Kosten zu minimieren und eine feste Mitarbeiterstruktur zu haben.
 
 [EOTA]: [[!!pdf/EOTA.pdf]]
 [euler-lagrange]: [[!!pdf/euler-lagrange_eqn.pdf]]
 [geodesics]: [[!!pdf/geodesics.pdf]]
 [worldpop]: [[!!pdf/worldpop.pdf]]
 [recycling]: [[!!pdf/recycling.pdf]]
-[summer]: [[!!pdf/summer2015_SNE.pdf]]
-[winter]: [[!!pdf/winter2015_SNE.pdf]]
