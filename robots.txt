@@ -5,6 +5,6 @@ Disallow: /404.html
 {% for code, lang in languages %}
 {% set sitemap = code + "/sitemap.xml" %}
 {% if site.content.resource_from_relative_path(sitemap) %}
-Sitemap: {{ base }}{{ content_url(sitemap) }}
+Sitemap: {{ resource.meta.fullurl }}{{ content_url(sitemap) }}
 {% endif %}
 {% endfor %}
